@@ -7,23 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281F15712117491C00606851 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F15702117491C00606851 /* HomeModel.swift */; };
+		281F15772117B3C000606851 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F15762117B3C000606851 /* ConnectionViewController.swift */; };
+		281F15BC2117CBC100606851 /* FeelingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F15BB2117CBC100606851 /* FeelingsModel.swift */; };
+		2825FF302116BCD00063861A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2825FF2F2116BCD00063861A /* libsqlite3.0.tbd */; };
+		282A9960211AA22F00BF2E5C /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A995D211AA20C00BF2E5C /* EmojiTableViewCell.swift */; };
+		283230DA21161907008A5BAB /* EnterMyMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283230D921161907008A5BAB /* EnterMyMoodViewController.swift */; };
+		2898E078211DF33900F4C664 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898E077211DF33900F4C664 /* Emoji.swift */; };
+		28A65A6320FBBAB300293427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A65A6220FBBAB300293427 /* Assets.xcassets */; };
+		28A65A6520FBBB4E00293427 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A65A6420FBBB4E00293427 /* ChartViewController.swift */; };
 		28CFDFD220F948C800492CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFDFD120F948C800492CE5 /* AppDelegate.swift */; };
-		28CFDFD420F948C800492CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFDFD320F948C800492CE5 /* ViewController.swift */; };
 		28CFDFD720F948C800492CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CFDFD520F948C800492CE5 /* Main.storyboard */; };
 		28CFDFDA20F948C800492CE5 /* Feelings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28CFDFD820F948C800492CE5 /* Feelings.xcdatamodeld */; };
-		28CFDFDC20F948C900492CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CFDFDB20F948C900492CE5 /* Assets.xcassets */; };
 		28CFDFDF20F948C900492CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CFDFDD20F948C900492CE5 /* LaunchScreen.storyboard */; };
+		28E7B2E02112B5B300ED704C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7B2DF2112B5B300ED704C /* SettingViewController.swift */; };
+		28E7B2E32113C4FD00ED704C /* FrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7B2E22113C4FD00ED704C /* FrequencyViewController.swift */; };
+		28E7B2E721140CDA00ED704C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7B2E621140CDA00ED704C /* GradientView.swift */; };
+		4853B14CCAE5B1A5CC172A47 /* Pods_Feelings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4347001498DD3AF5DFC091 /* Pods_Feelings.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		28CEA3602106BF9D007FDE17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CEA35B2106BF9D007FDE17 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		28CEA3622106BF9D007FDE17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CEA35B2106BF9D007FDE17 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		281F15702117491C00606851 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		281F15762117B3C000606851 /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		281F15BB2117CBC100606851 /* FeelingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingsModel.swift; sourceTree = "<group>"; };
+		2825FF2F2116BCD00063861A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		282A995D211AA20C00BF2E5C /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
+		283230D921161907008A5BAB /* EnterMyMoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterMyMoodViewController.swift; sourceTree = "<group>"; };
+		285B92B12106B89F0085BE15 /* Feelings-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Feelings-Swift.h"; sourceTree = "<group>"; };
+		2898E077211DF33900F4C664 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		28A65A6220FBBAB300293427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28A65A6420FBBB4E00293427 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		28CEA35B2106BF9D007FDE17 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Downloads/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
 		28CFDFCE20F948C800492CE5 /* Feelings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feelings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CFDFD120F948C800492CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28CFDFD320F948C800492CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28CFDFD620F948C800492CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28CFDFD920F948C800492CE5 /* Feelings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Feelings.xcdatamodel; sourceTree = "<group>"; };
-		28CFDFDB20F948C900492CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28CFDFDE20F948C900492CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28CFDFE020F948C900492CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E7B2DF2112B5B300ED704C /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		28E7B2E22113C4FD00ED704C /* FrequencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyViewController.swift; sourceTree = "<group>"; };
+		28E7B2E621140CDA00ED704C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		4F4347001498DD3AF5DFC091 /* Pods_Feelings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feelings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E66F70DE75BEB2CDE2546B /* Pods-Feelings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feelings.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feelings/Pods-Feelings.release.xcconfig"; sourceTree = "<group>"; };
+		75B8A5B65FDF32E7C4CABF2D /* Pods-Feelings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feelings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Feelings/Pods-Feelings.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +74,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2825FF302116BCD00063861A /* libsqlite3.0.tbd in Frameworks */,
+				4853B14CCAE5B1A5CC172A47 /* Pods_Feelings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28CEA35C2106BF9D007FDE17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28CEA3612106BF9D007FDE17 /* Charts.framework */,
+				28CEA3632106BF9D007FDE17 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		28CFDFC520F948C800492CE5 = {
 			isa = PBXGroup;
 			children = (
+				285B92B12106B89F0085BE15 /* Feelings-Swift.h */,
+				28CEA35B2106BF9D007FDE17 /* Charts.xcodeproj */,
 				28CFDFD020F948C800492CE5 /* Feelings */,
 				28CFDFCF20F948C800492CE5 /* Products */,
+				71CB6565459EE97720CAE8B8 /* Pods */,
+				2F07483A7527FA02E21B08CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +115,41 @@
 			isa = PBXGroup;
 			children = (
 				28CFDFD120F948C800492CE5 /* AppDelegate.swift */,
-				28CFDFD320F948C800492CE5 /* ViewController.swift */,
+				282A995D211AA20C00BF2E5C /* EmojiTableViewCell.swift */,
 				28CFDFD520F948C800492CE5 /* Main.storyboard */,
-				28CFDFDB20F948C900492CE5 /* Assets.xcassets */,
+				283230D921161907008A5BAB /* EnterMyMoodViewController.swift */,
+				28E7B2E621140CDA00ED704C /* GradientView.swift */,
+				28E7B2E22113C4FD00ED704C /* FrequencyViewController.swift */,
+				28E7B2DF2112B5B300ED704C /* SettingViewController.swift */,
+				28A65A6420FBBB4E00293427 /* ChartViewController.swift */,
+				281F15762117B3C000606851 /* ConnectionViewController.swift */,
 				28CFDFDD20F948C900492CE5 /* LaunchScreen.storyboard */,
+				28A65A6220FBBAB300293427 /* Assets.xcassets */,
 				28CFDFE020F948C900492CE5 /* Info.plist */,
+				281F15BB2117CBC100606851 /* FeelingsModel.swift */,
+				2898E077211DF33900F4C664 /* Emoji.swift */,
+				281F15702117491C00606851 /* HomeModel.swift */,
 				28CFDFD820F948C800492CE5 /* Feelings.xcdatamodeld */,
 			);
 			path = Feelings;
+			sourceTree = "<group>";
+		};
+		2F07483A7527FA02E21B08CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2825FF2F2116BCD00063861A /* libsqlite3.0.tbd */,
+				4F4347001498DD3AF5DFC091 /* Pods_Feelings.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71CB6565459EE97720CAE8B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75B8A5B65FDF32E7C4CABF2D /* Pods-Feelings.debug.xcconfig */,
+				55E66F70DE75BEB2CDE2546B /* Pods-Feelings.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28CFDFE320F948C900492CE5 /* Build configuration list for PBXNativeTarget "Feelings" */;
 			buildPhases = (
+				EFF0133C7C839EB4EE2E5F1D /* [CP] Check Pods Manifest.lock */,
 				28CFDFCA20F948C800492CE5 /* Sources */,
 				28CFDFCB20F948C800492CE5 /* Frameworks */,
 				28CFDFCC20F948C800492CE5 /* Resources */,
+				2B19825564ADA7C8BCE61A40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,6 +200,12 @@
 			mainGroup = 28CFDFC520F948C800492CE5;
 			productRefGroup = 28CFDFCF20F948C800492CE5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 28CEA35C2106BF9D007FDE17 /* Products */;
+					ProjectRef = 28CEA35B2106BF9D007FDE17 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				28CFDFCD20F948C800492CE5 /* Feelings */,
@@ -120,27 +213,98 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		28CEA3612106BF9D007FDE17 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 28CEA3602106BF9D007FDE17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28CEA3632106BF9D007FDE17 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 28CEA3622106BF9D007FDE17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		28CFDFCC20F948C800492CE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				28CFDFDF20F948C900492CE5 /* LaunchScreen.storyboard in Resources */,
-				28CFDFDC20F948C900492CE5 /* Assets.xcassets in Resources */,
+				28A65A6320FBBAB300293427 /* Assets.xcassets in Resources */,
 				28CFDFD720F948C800492CE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B19825564ADA7C8BCE61A40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Feelings/Pods-Feelings-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Feelings/Pods-Feelings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF0133C7C839EB4EE2E5F1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Feelings-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28CFDFCA20F948C800492CE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28CFDFD420F948C800492CE5 /* ViewController.swift in Sources */,
+				28E7B2E32113C4FD00ED704C /* FrequencyViewController.swift in Sources */,
+				281F15BC2117CBC100606851 /* FeelingsModel.swift in Sources */,
+				283230DA21161907008A5BAB /* EnterMyMoodViewController.swift in Sources */,
+				28A65A6520FBBB4E00293427 /* ChartViewController.swift in Sources */,
 				28CFDFDA20F948C800492CE5 /* Feelings.xcdatamodeld in Sources */,
 				28CFDFD220F948C800492CE5 /* AppDelegate.swift in Sources */,
+				2898E078211DF33900F4C664 /* Emoji.swift in Sources */,
+				282A9960211AA22F00BF2E5C /* EmojiTableViewCell.swift in Sources */,
+				281F15772117B3C000606851 /* ConnectionViewController.swift in Sources */,
+				28E7B2E721140CDA00ED704C /* GradientView.swift in Sources */,
+				281F15712117491C00606851 /* HomeModel.swift in Sources */,
+				28E7B2E02112B5B300ED704C /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,16 +446,18 @@
 		};
 		28CFDFE420F948C900492CE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B8A5B65FDF32E7C4CABF2D /* Pods-Feelings.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7Y983XS4ZL;
+				DEVELOPMENT_TEAM = 67647UF6BU;
 				INFOPLIST_FILE = Feelings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = feelings.Feelings;
+				PRODUCT_BUNDLE_IDENTIFIER = feelings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,16 +466,18 @@
 		};
 		28CFDFE520F948C900492CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E66F70DE75BEB2CDE2546B /* Pods-Feelings.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7Y983XS4ZL;
+				DEVELOPMENT_TEAM = 67647UF6BU;
 				INFOPLIST_FILE = Feelings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = feelings.Feelings;
+				PRODUCT_BUNDLE_IDENTIFIER = feelings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
