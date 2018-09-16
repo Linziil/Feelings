@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		281F15712117491C00606851 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F15702117491C00606851 /* HomeModel.swift */; };
 		281F15772117B3C000606851 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F15762117B3C000606851 /* ConnectionViewController.swift */; };
-		281F15BC2117CBC100606851 /* FeelingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F15BB2117CBC100606851 /* FeelingsModel.swift */; };
 		2825FF302116BCD00063861A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2825FF2F2116BCD00063861A /* libsqlite3.0.tbd */; };
 		282A9960211AA22F00BF2E5C /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A995D211AA20C00BF2E5C /* EmojiTableViewCell.swift */; };
 		283230DA21161907008A5BAB /* EnterMyMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283230D921161907008A5BAB /* EnterMyMoodViewController.swift */; };
+		2861FC6C2142886300E3ED1D /* ConnectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2861FC6B2142886300E3ED1D /* ConnectionService.swift */; };
+		2861FC772144651600E3ED1D /* DateTimeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2861FC762144651600E3ED1D /* DateTimeString.swift */; };
 		2898E078211DF33900F4C664 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898E077211DF33900F4C664 /* Emoji.swift */; };
 		28A65A6320FBBAB300293427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A65A6220FBBAB300293427 /* Assets.xcassets */; };
 		28A65A6520FBBB4E00293427 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A65A6420FBBB4E00293427 /* ChartViewController.swift */; };
@@ -21,7 +21,7 @@
 		28CFDFDA20F948C800492CE5 /* Feelings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28CFDFD820F948C800492CE5 /* Feelings.xcdatamodeld */; };
 		28CFDFDF20F948C900492CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CFDFDD20F948C900492CE5 /* LaunchScreen.storyboard */; };
 		28E7B2E02112B5B300ED704C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7B2DF2112B5B300ED704C /* SettingViewController.swift */; };
-		28E7B2E32113C4FD00ED704C /* FrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7B2E22113C4FD00ED704C /* FrequencyViewController.swift */; };
+		28E7B2E32113C4FD00ED704C /* SetFrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7B2E22113C4FD00ED704C /* SetFrequencyViewController.swift */; };
 		28E7B2E721140CDA00ED704C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7B2E621140CDA00ED704C /* GradientView.swift */; };
 		4853B14CCAE5B1A5CC172A47 /* Pods_Feelings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4347001498DD3AF5DFC091 /* Pods_Feelings.framework */; };
 /* End PBXBuildFile section */
@@ -44,13 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		281F15702117491C00606851 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		281F15762117B3C000606851 /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
-		281F15BB2117CBC100606851 /* FeelingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingsModel.swift; sourceTree = "<group>"; };
 		2825FF2F2116BCD00063861A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		282A995D211AA20C00BF2E5C /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
 		283230D921161907008A5BAB /* EnterMyMoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterMyMoodViewController.swift; sourceTree = "<group>"; };
 		285B92B12106B89F0085BE15 /* Feelings-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Feelings-Swift.h"; sourceTree = "<group>"; };
+		2861FC6B2142886300E3ED1D /* ConnectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionService.swift; sourceTree = "<group>"; };
+		2861FC762144651600E3ED1D /* DateTimeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateTimeString.swift; path = /Users/cake/Documents/Project/Feelings/Feelings/DateTimeString.swift; sourceTree = "<absolute>"; };
 		2898E077211DF33900F4C664 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		28A65A6220FBBAB300293427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28A65A6420FBBB4E00293427 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		28CFDFDE20F948C900492CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28CFDFE020F948C900492CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E7B2DF2112B5B300ED704C /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		28E7B2E22113C4FD00ED704C /* FrequencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyViewController.swift; sourceTree = "<group>"; };
+		28E7B2E22113C4FD00ED704C /* SetFrequencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFrequencyViewController.swift; sourceTree = "<group>"; };
 		28E7B2E621140CDA00ED704C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		4F4347001498DD3AF5DFC091 /* Pods_Feelings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feelings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E66F70DE75BEB2CDE2546B /* Pods-Feelings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feelings.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feelings/Pods-Feelings.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,16 +119,16 @@
 				28CFDFD520F948C800492CE5 /* Main.storyboard */,
 				283230D921161907008A5BAB /* EnterMyMoodViewController.swift */,
 				28E7B2E621140CDA00ED704C /* GradientView.swift */,
-				28E7B2E22113C4FD00ED704C /* FrequencyViewController.swift */,
+				28E7B2E22113C4FD00ED704C /* SetFrequencyViewController.swift */,
 				28E7B2DF2112B5B300ED704C /* SettingViewController.swift */,
+				2861FC762144651600E3ED1D /* DateTimeString.swift */,
 				28A65A6420FBBB4E00293427 /* ChartViewController.swift */,
+				2861FC6B2142886300E3ED1D /* ConnectionService.swift */,
 				281F15762117B3C000606851 /* ConnectionViewController.swift */,
 				28CFDFDD20F948C900492CE5 /* LaunchScreen.storyboard */,
 				28A65A6220FBBAB300293427 /* Assets.xcassets */,
 				28CFDFE020F948C900492CE5 /* Info.plist */,
-				281F15BB2117CBC100606851 /* FeelingsModel.swift */,
 				2898E077211DF33900F4C664 /* Emoji.swift */,
-				281F15702117491C00606851 /* HomeModel.swift */,
 				28CFDFD820F948C800492CE5 /* Feelings.xcdatamodeld */,
 			);
 			path = Feelings;
@@ -180,6 +180,9 @@
 		28CFDFC620F948C800492CE5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Feelings,
+				);
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Cake;
@@ -255,6 +258,7 @@
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -262,6 +266,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -293,17 +298,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E7B2E32113C4FD00ED704C /* FrequencyViewController.swift in Sources */,
-				281F15BC2117CBC100606851 /* FeelingsModel.swift in Sources */,
+				28E7B2E32113C4FD00ED704C /* SetFrequencyViewController.swift in Sources */,
 				283230DA21161907008A5BAB /* EnterMyMoodViewController.swift in Sources */,
 				28A65A6520FBBB4E00293427 /* ChartViewController.swift in Sources */,
 				28CFDFDA20F948C800492CE5 /* Feelings.xcdatamodeld in Sources */,
+				2861FC6C2142886300E3ED1D /* ConnectionService.swift in Sources */,
 				28CFDFD220F948C800492CE5 /* AppDelegate.swift in Sources */,
 				2898E078211DF33900F4C664 /* Emoji.swift in Sources */,
 				282A9960211AA22F00BF2E5C /* EmojiTableViewCell.swift in Sources */,
+				2861FC772144651600E3ED1D /* DateTimeString.swift in Sources */,
 				281F15772117B3C000606851 /* ConnectionViewController.swift in Sources */,
 				28E7B2E721140CDA00ED704C /* GradientView.swift in Sources */,
-				281F15712117491C00606851 /* HomeModel.swift in Sources */,
 				28E7B2E02112B5B300ED704C /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,29 +7,17 @@
 //
 
 import UIKit
-
+//  Create a sub table view cell from ConnectionViewController
+//  This table view cell is created for mapping and populating the dynamic data from Feelings database
 class EmojiTableViewCell: UITableViewCell {
-
+//  Create 3 labels to present symbol and name, use's input thought, and time stamp
     @IBOutlet weak var symbolNameLabel: UILabel!
     @IBOutlet weak var writingLabel: UILabel!
     @IBOutlet weak var timeStampLabel: UILabel!
-    
-//    func update(with ann: Emoji){
-//        symbolNameLabel.text = ann.symbol + ":" + ann.name
-//        writingLabel.text = ann.writing
-//        timeStampLabel.text = ann.time
-//    }
-    
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
 
+//  Configure the view for the selected state
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+//  Can change backgroundColor when selected a cell
     }
-
 }

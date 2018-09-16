@@ -9,20 +9,30 @@
 import UIKit
 import Alamofire
 
+// Connection View Controller is the View to retrieve all data from my database where date = today's date or a string's date.
+
 class ConnectionViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    let currentDate = Date()
-    var daysToSubtract : Int = 0
-    var daysToAdd : Int = 0
-   
+// First, I called the Emoji object model as emoji
+    var emoji = [Emoji]()
+//  Connection URL
     let URL_RETRIEVE = "http://linziwerle.com/service88.php"
-    let PassingDate : String = ""
-   
-    
+//  A date variable as my connection parameters
+    var PassingDate : String = ""
+//  Using my DateTimeString model( get a String type date/time )
+    var dateString = DateTimeString()
+    let currentDate = Date()
+    var daysToSubtract = 0
+    var daysToAdd = 0
+//  Create a dateLabel to present date's string
+    @IBOutlet weak var dateLabel: UILabel!
+//  Create a TableView outlet. so we can call it later to reload data
+    @IBOutlet weak var loadEmojiTableView: UITableView!
+//
     @IBOutlet weak var tomorrowDate: UIButton!
     @IBOutlet weak var yesterdayDate: UIButton!
     @IBAction func tomorrowDate(_ sender: Any) {
-        emo.removeAll()
-        self.stockResultsFeed.reloadData()
+        emoji.removeAll()
+        self.loadEmojiTableView.reloadData()
         daysToSubtract -= -1
         let formatter = DateFormatter()
         formatter.dateFormat = "MM/dd/YY"
@@ -30,20 +40,16 @@ class ConnectionViewController: UIViewController, UITableViewDataSource, UITable
         dateComponent.day = daysToSubtract
         let pastDate = Calendar.current.date(byAdding: dateComponent, to: currentDate)
         let str = formatter.string(from: pastDate!)
-        let strT = formatter.string(from: currentDate)
+        _ = formatter.string(from: currentDate)
         dateLabel.text = str
-        let PassingDate = dateLabel.text!
-        alaDataPassing()
-    
+        serviceConnection()
     }
     
     @IBAction func yesterdayDate(_ sender: Any) {
         //IMPORTANT!!! HOW TO REFRESH CODE
-        emo.removeAll()
-        self.stockResultsFeed.reloadData()
-        //
+        emoji.removeAll()
+        self.loadEmojiTableView.reloadData()
         daysToSubtract -= 1
-        
         let formatter = DateFormatter()
         formatter.dateFormat = "MM/dd/YY"
         var dateComponent = DateComponents()
@@ -51,49 +57,30 @@ class ConnectionViewController: UIViewController, UITableViewDataSource, UITable
         let pastDate = Calendar.current.date(byAdding: dateComponent, to: currentDate)
         let str = formatter.string(from: pastDate!)
             dateLabel.text = str
-        let PassingDate = dateLabel.text!
-        alaDataPassing()
-        
+        serviceConnection()
         let today = Date()
-        let strT = formatter.string(from: today)
-      
-        if dateLabel.text == "08/10/18" {
+        _ = formatter.string(from: today)
+        if dateLabel.text == PassingDate {
             tomorrowDate.isHidden = true
         }else{
             tomorrowDate.isHidden = false
         }
-       
-    
     }
-    @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var stockResultsFeed: UITableView!
-    
 
     
-    var emo = [Emoji]()
-   // emo is an NSArray from Emoji Object
-    
-    
-    func getCurrentDate(){
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MM/dd/YY"
-        let strDate = formatter.string(from: Date())
-        dateLabel.text = strDate
-    }
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return emo.count
+        return emoji.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell : EmojiTableViewCell = tableView.dequeueReusableCell(withIdentifier: "stockCell", for: indexPath) as! EmojiTableViewCell
+        let cell : EmojiTableViewCell = tableView.dequeueReusableCell(withIdentifier: "emojiCell", for: indexPath) as! EmojiTableViewCell
     
     
-        let ji : Emoji
-        ji = emo[indexPath.row]
-        cell.symbolNameLabel.text = ji.symbol + ":" + ji.name
-        cell.writingLabel.text = ji.writing
-        cell.timeStampLabel.text = ji.time
+        let emojiObject : Emoji
+        emojiObject = emoji[indexPath.row]
+        cell.symbolNameLabel.text = emojiObject.symbol + ":" + emojiObject.name
+        cell.writingLabel.text = emojiObject.writing
+        cell.timeStampLabel.text = emojiObject.time
         cell.showsReorderControl = true
         return cell
     }
@@ -101,42 +88,45 @@ class ConnectionViewController: UIViewController, UITableViewDataSource, UITable
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.stockResultsFeed.delegate = self
-        self.stockResultsFeed.dataSource = self
-        getCurrentDate()
-        alaDataPassing()
+        self.loadEmojiTableView.delegate = self
+        self.loadEmojiTableView.dataSource = self
+        dateLabel.text = dateString.getCurrentDate(from: Date())
+        serviceConnection()
         tomorrowDate.isHidden = true
         if PassingDate == dateLabel.text!  {
              tomorrowDate.isHidden = true
         }
-        
     }
-    
-    func alaDataPassing(){
+    func serviceConnection(){
         let PassingDate = dateLabel.text
         let parameters : Parameters = ["PassingDate" : PassingDate!]
         Alamofire.request(URL_RETRIEVE, method: .post,parameters : parameters).responseJSON{
             response in
-            //            print("Log \(response)")
-            //            print("Log response.request: \(response.request)")
-            //            print("Log response.error: \(response.error)")
-            //            print("Log response.data: \(response.data)")
-            //            print("Log response.result: \(response.result)")
+       
+            if let json = response.result.value,
+                let emojiArray  = json as? NSArray
             
-            if let json = response.result.value{
-                let emojiArray : NSArray = json as! NSArray
+            {
+//                let emojiArray : NSArray = json as! NSArray
+//                let name = emojiArray.value(forKey: "name") as! NSArray
+//                let objCArray = NSMutableArray(array: name)
+//                let nameArray = objCArray.compactMap({$0 as? String})
+//                let mappedItems = nameArray.map {($0,1)}
+//                let counts = Dictionary(mappedItems, uniquingKeysWith: +)
+                
                 for i in 0..<emojiArray.count{
                     
-                    self.emo.append(Emoji(
+                    self.emoji.append(Emoji(
                         symbol : ((emojiArray[i] as AnyObject).value(forKey: "symbol") as? String)!,
                         name : ((emojiArray[i] as AnyObject).value(forKey: "name") as? String)!,
                         writing : ((emojiArray[i] as AnyObject).value(forKey: "writing") as? String)!,
                         time : ((emojiArray[i] as AnyObject).value(forKey: "time") as? String)!
                     ))
                 }
-                self.stockResultsFeed.reloadData()
+                print(self.emoji)
+                
+                self.loadEmojiTableView.reloadData()
             }
         }
     }
-    
 }
