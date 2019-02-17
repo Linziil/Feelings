@@ -12,7 +12,9 @@ import Charts
 //  Declare all mood name from emojiSet[key]
 //  Use dictionary[key] to get the Int value.
 //  Syc Int into variables
-// TEST TEST TEST 
+// TEST TEST TEST
+// TEST TEST TEST
+
 class ChartViewController: UIViewController {
 //  Declare all variables from emojiSet[key]
     var happy = PieChartDataEntry (value: 0)
