@@ -12,6 +12,8 @@
 		282A9960211AA22F00BF2E5C /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A995D211AA20C00BF2E5C /* EmojiTableViewCell.swift */; };
 		283230DA21161907008A5BAB /* EnterMyMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283230D921161907008A5BAB /* EnterMyMoodViewController.swift */; };
 		2861FC772144651600E3ED1D /* DateTimeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2861FC762144651600E3ED1D /* DateTimeString.swift */; };
+		2862C43021E40AE70008D3C4 /* FeelingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2862C42F21E40AE70008D3C4 /* FeelingsTests.swift */; };
+		2862C43E21E40B640008D3C4 /* FeelingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2862C43D21E40B640008D3C4 /* FeelingsUITests.swift */; };
 		2898E078211DF33900F4C664 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898E077211DF33900F4C664 /* Emoji.swift */; };
 		28A65A6320FBBAB300293427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A65A6220FBBAB300293427 /* Assets.xcassets */; };
 		28A65A6520FBBB4E00293427 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A65A6420FBBB4E00293427 /* ChartViewController.swift */; };
@@ -26,6 +28,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2862C43221E40AE70008D3C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CFDFC620F948C800492CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CFDFCD20F948C800492CE5;
+			remoteInfo = Feelings;
+		};
+		2862C44021E40B640008D3C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CFDFC620F948C800492CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CFDFCD20F948C800492CE5;
+			remoteInfo = Feelings;
+		};
 		28CEA3602106BF9D007FDE17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 28CEA35B2106BF9D007FDE17 /* Charts.xcodeproj */;
@@ -49,6 +65,12 @@
 		283230D921161907008A5BAB /* EnterMyMoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterMyMoodViewController.swift; sourceTree = "<group>"; };
 		285B92B12106B89F0085BE15 /* Feelings-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Feelings-Swift.h"; sourceTree = "<group>"; };
 		2861FC762144651600E3ED1D /* DateTimeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateTimeString.swift; path = /Users/cake/Documents/Project/Feelings/Feelings/DateTimeString.swift; sourceTree = "<absolute>"; };
+		2862C42D21E40AE70008D3C4 /* FeelingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2862C42F21E40AE70008D3C4 /* FeelingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingsTests.swift; sourceTree = "<group>"; };
+		2862C43121E40AE70008D3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2862C43B21E40B640008D3C4 /* FeelingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2862C43D21E40B640008D3C4 /* FeelingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingsUITests.swift; sourceTree = "<group>"; };
+		2862C43F21E40B640008D3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2898E077211DF33900F4C664 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		28A65A6220FBBAB300293427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28A65A6420FBBB4E00293427 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +90,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2862C42A21E40AE70008D3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2862C43821E40B640008D3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28CFDFCB20F948C800492CE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,6 +116,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2862C42E21E40AE70008D3C4 /* FeelingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2862C42F21E40AE70008D3C4 /* FeelingsTests.swift */,
+				2862C43121E40AE70008D3C4 /* Info.plist */,
+			);
+			path = FeelingsTests;
+			sourceTree = "<group>";
+		};
+		2862C43C21E40B640008D3C4 /* FeelingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2862C43D21E40B640008D3C4 /* FeelingsUITests.swift */,
+				2862C43F21E40B640008D3C4 /* Info.plist */,
+			);
+			path = FeelingsUITests;
+			sourceTree = "<group>";
+		};
 		28CEA35C2106BF9D007FDE17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +149,8 @@
 				285B92B12106B89F0085BE15 /* Feelings-Swift.h */,
 				28CEA35B2106BF9D007FDE17 /* Charts.xcodeproj */,
 				28CFDFD020F948C800492CE5 /* Feelings */,
+				2862C42E21E40AE70008D3C4 /* FeelingsTests */,
+				2862C43C21E40B640008D3C4 /* FeelingsUITests */,
 				28CFDFCF20F948C800492CE5 /* Products */,
 				71CB6565459EE97720CAE8B8 /* Pods */,
 				2F07483A7527FA02E21B08CC /* Frameworks */,
@@ -105,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				28CFDFCE20F948C800492CE5 /* Feelings.app */,
+				2862C42D21E40AE70008D3C4 /* FeelingsTests.xctest */,
+				2862C43B21E40B640008D3C4 /* FeelingsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +210,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2862C42C21E40AE70008D3C4 /* FeelingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2862C43621E40AE70008D3C4 /* Build configuration list for PBXNativeTarget "FeelingsTests" */;
+			buildPhases = (
+				2862C42921E40AE70008D3C4 /* Sources */,
+				2862C42A21E40AE70008D3C4 /* Frameworks */,
+				2862C42B21E40AE70008D3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2862C43321E40AE70008D3C4 /* PBXTargetDependency */,
+			);
+			name = FeelingsTests;
+			productName = FeelingsTests;
+			productReference = 2862C42D21E40AE70008D3C4 /* FeelingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2862C43A21E40B640008D3C4 /* FeelingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2862C44221E40B640008D3C4 /* Build configuration list for PBXNativeTarget "FeelingsUITests" */;
+			buildPhases = (
+				2862C43721E40B640008D3C4 /* Sources */,
+				2862C43821E40B640008D3C4 /* Frameworks */,
+				2862C43921E40B640008D3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2862C44121E40B640008D3C4 /* PBXTargetDependency */,
+			);
+			name = FeelingsUITests;
+			productName = FeelingsUITests;
+			productReference = 2862C43B21E40B640008D3C4 /* FeelingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		28CFDFCD20F948C800492CE5 /* Feelings */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28CFDFE320F948C900492CE5 /* Build configuration list for PBXNativeTarget "Feelings" */;
@@ -180,10 +274,18 @@
 				KnownAssetTags = (
 					Feelings,
 				);
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Cake;
 				TargetAttributes = {
+					2862C42C21E40AE70008D3C4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 28CFDFCD20F948C800492CE5;
+					};
+					2862C43A21E40B640008D3C4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 28CFDFCD20F948C800492CE5;
+					};
 					28CFDFCD20F948C800492CE5 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -209,6 +311,8 @@
 			projectRoot = "";
 			targets = (
 				28CFDFCD20F948C800492CE5 /* Feelings */,
+				2862C42C21E40AE70008D3C4 /* FeelingsTests */,
+				2862C43A21E40B640008D3C4 /* FeelingsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +335,20 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2862C42B21E40AE70008D3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2862C43921E40B640008D3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28CFDFCC20F948C800492CE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,6 +409,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2862C42921E40AE70008D3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2862C43021E40AE70008D3C4 /* FeelingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2862C43721E40B640008D3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2862C43E21E40B640008D3C4 /* FeelingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28CFDFCA20F948C800492CE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,6 +444,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2862C43321E40AE70008D3C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CFDFCD20F948C800492CE5 /* Feelings */;
+			targetProxy = 2862C43221E40AE70008D3C4 /* PBXContainerItemProxy */;
+		};
+		2862C44121E40B640008D3C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CFDFCD20F948C800492CE5 /* Feelings */;
+			targetProxy = 2862C44021E40B640008D3C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		28CFDFD520F948C800492CE5 /* Main.storyboard */ = {
@@ -331,6 +478,94 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2862C43421E40AE70008D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y983XS4ZL;
+				INFOPLIST_FILE = FeelingsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = linwerle.FeelingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feelings.app/Feelings";
+			};
+			name = Debug;
+		};
+		2862C43521E40AE70008D3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y983XS4ZL;
+				INFOPLIST_FILE = FeelingsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = linwerle.FeelingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feelings.app/Feelings";
+			};
+			name = Release;
+		};
+		2862C44321E40B640008D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y983XS4ZL;
+				INFOPLIST_FILE = FeelingsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = linwerle.FeelingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Feelings;
+			};
+			name = Debug;
+		};
+		2862C44421E40B640008D3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y983XS4ZL;
+				INFOPLIST_FILE = FeelingsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = linwerle.FeelingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Feelings;
+			};
+			name = Release;
+		};
 		28CFDFE120F948C900492CE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -488,6 +723,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2862C43621E40AE70008D3C4 /* Build configuration list for PBXNativeTarget "FeelingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2862C43421E40AE70008D3C4 /* Debug */,
+				2862C43521E40AE70008D3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2862C44221E40B640008D3C4 /* Build configuration list for PBXNativeTarget "FeelingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2862C44321E40B640008D3C4 /* Debug */,
+				2862C44421E40B640008D3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		28CFDFC920F948C800492CE5 /* Build configuration list for PBXProject "Feelings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -12,17 +12,16 @@ import Charts
 //  Declare all mood name from emojiSet[key]
 //  Use dictionary[key] to get the Int value.
 //  Syc Int into variables
-
-
+// TEST TEST TEST 
 class ChartViewController: UIViewController {
 //  Declare all variables from emojiSet[key]
     var happy = PieChartDataEntry (value: 0)
     var sad  = PieChartDataEntry (value:0)
     var angry = PieChartDataEntry (value:0)
     var dataPie = [PieChartDataEntry]()
-    var happyCount : Int = 8
-    var sadCount : Int = 12
-    var angryCount : Int = 2
+    var happyCount = 8
+    var sadCount = 12
+    var angryCount = 2
     var dateString = DateTimeString()
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var day: UILabel!
